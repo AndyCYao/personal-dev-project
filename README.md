@@ -39,6 +39,8 @@ group
 
 from frenom, they expire in 3 months
 
+- I can test locally by working on a virtualbox docker machine, then modify my etc/host to point the dockermachine's IP address to the two websites.
+
 __TODO remove this when the project is over__
 - I created an elastic IP 34.216.28.49 and associated it to the andy-dev-1 i created. 
 - I created an Amazon Hosted Zone, created two A record that points to the elastic IP

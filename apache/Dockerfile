@@ -12,5 +12,5 @@ ADD website2.ml/ /var/www/website2.ml/
 RUN chmod -R 755 /var/www
 RUN a2ensite website1.ml.conf
 RUN a2ensite website2.ml.conf
-RUN service apache2 restart
+# RUN service apache2 restart
 CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
